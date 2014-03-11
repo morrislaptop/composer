@@ -50,7 +50,7 @@ By default it is assumed that you have the composer executable installed and in 
 Configurable options, shown here with defaults:
 
 ```ruby
-set :composer_install_flags, '--no-dev --no-scripts --quiet --optimize-autoloader'
+set :composer_install_flags, '--no-dev --no-scripts --quiet --optimize-autoloader --prefer-dist'
 set :composer_roles, :all
 set :composer_dump_autoload_flags, '--optimize'
 set :composer_download_url, "https://getcomposer.org/installer"
